@@ -3,46 +3,6 @@ title: Welcome to Molecule-Man
 ---
 
 <section class="style-2">
-	<%= partial "shared/_style-menu" %>
-	
-	<section class="header">
-		<div class="row">
-			<div class="large-12 columns">
-				<%= partial "shared/_logo" %>
-				
-				<%= partial "shared/_social" %>
-				
-				<%= partial "shared/_actions" %>
-			</div>
-		</div>
-	
-		<section class="full-nav">
-			<div class="row">
-				<nav class="large-12 columns">
-					<%= partial "shared/_nav" %>
-				</nav>
-			</div>
-		</section>
-	</section>
-	
-	<div class="row">
-		<div class="large-8 columns">
-			<%= partial "shared/_article" %>
-		</div>
-	
-		<div class="large-4 columns">
-			<div class="inset">
-				<%= partial "shared/_sidebar" %>
-			</div>
-			<%= partial "shared/_widget" %>
-			</div>
-	</div>
-	
-	<div class="row">
-		<%= partial "shared/_3x-excerpt" %>
-	</div>
-	
-	<hr>
 	
 	<div class="row">
 		<div class="large-8 medium-8 columns">
@@ -75,7 +35,25 @@ title: Welcome to Molecule-Man
 			<p><span class="icon-printer"></span></p>
 		</div>
 	</div>
+
+	<hr>
 	
-	<%= partial "shared/_footer" %>
+	<div class="row">
+		<div class="large-8 columns">
+			<%= partial "shared/_article" %>
+		</div>
+	
+		<div class="large-4 columns">
+			<div class="inset">
+				<%= partial "shared/_sidebar" %>
+			</div>
+			<%= partial "shared/_widget" %>
+			</div>
+	</div>
+	
+	<div class="row">
+		<%= partial "shared/_excerpt-3x" %>
+	</div>
+
 
 </section>
