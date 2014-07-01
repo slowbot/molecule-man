@@ -1,4 +1,4 @@
-esd-pattern-library
+Molecule Man
 ==========================
 
-Static front-end pattern library for Earth Sciences Division
+Static front-end pattern library for style tiles
