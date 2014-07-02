@@ -5,6 +5,7 @@ Static front-end pattern library for style tiles
 
 ## Getting Started
 
+1. Install Middleman by following these instructions: [Middleman Getting Started](http://middlemanapp.com/basics/getting-started/)
 1. Clone repository to your local computer
 1. Install required ruby gems: `$ bundle install`
 1. Start your middleman server: `$ middleman server`
